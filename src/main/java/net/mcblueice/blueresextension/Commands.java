@@ -17,6 +17,10 @@ public class Commands implements CommandExecutor {
         if (args.length > 0) {
             switch (args[0].toLowerCase()) {
                 case "reload":
+                    if (!sender.hasPermission("blueresextension.reload")) {
+                        sender.sendMessage("§7§l[§a§l系統§7§l]§r§c你沒有權限使用此指令!");
+                        return true;
+                    }
                     plugin.reloadConfig();
                     sender.sendMessage("§7§l[§a§l系統§7§l]§r§aConfig已重新加載");
                     return true;

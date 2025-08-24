@@ -12,3 +12,8 @@ commands:
   blueresextension:
     description: BlueResExtension主指令
     usage: /blueresextension <reload>
+
+permissions:
+  blueresextension.reload:
+    description: 允許使用 /blueresextension reload
+    default: op

@@ -11,9 +11,9 @@
 
 ## 指令列表
 
-| 指令 | 用途 |
-|------|------|
-| `/blueresextension reload` | 重新載入設定檔 |
+| 指令 | 用途 | 權限節點 |
+|------|------|------|
+| `/blueresextension reload` | 重新載入設定檔 | `blueresextension.reload` |
 
 ## 授權 License
 
