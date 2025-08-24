@@ -1,0 +1,14 @@
+name: BlueResExtension
+version: '${project.version}'
+main: net.mcblueice.blueresextension.BlueResExtension
+api-version: 1.20
+depend:
+  - Residence
+softdepend:
+  - SafariNet
+author: Blue
+description: RES擴展
+commands:
+  blueresextension:
+    description: BlueResExtension主指令
+    usage: /blueresextension <reload>
