@@ -1,0 +1,20 @@
+safarinet:
+  noperm: "§7§l[§2§l領地§7§l]§r§c你沒有 %{1} 的權限"
+residence:
+  preview:
+    notinres: "§7§l[§2§l領地§7§l]§r§e你不在任何領地內"
+    noarea: "§7§l[§2§l領地§7§l]§r§c找不到主區域"
+    expand: "擴展"
+    contract: "縮小"
+    adjusted: "§7§l[§2§l領地§7§l]§r§e已達限制 已自動調整大小"
+    hint: "§7§l[§2§l領地§7§l]§r§a預覽 %{1} §7方向: §f%{2} §7距離: §f%{3} §7；輸入 §a/blueresextension confirm§7 套用，或 §c/blueresextension cancel§7 取消"
+    nopending: "§7§l[§2§l領地§7§l]§r§e沒有待處理的預覽"
+    executed: "§7§l[§2§l領地§7§l]§r§a已執行: %{1}"
+    canceled: "§7§l[§2§l領地§7§l]§r§c已取消預覽"
+  direction:
+    up: "上"
+    down: "下"
+    east: "東"
+    west: "西"
+    south: "南"
+    north: "北"

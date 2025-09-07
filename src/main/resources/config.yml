@@ -1,2 +1,27 @@
-features:
-  safarinet: true
+safarinet:
+  enable: true
+  catch_flag: destroy
+  release_flag: place
+expandtool:
+  enable: true
+  tool:
+    useResidenceSelectionTool: true
+    selectionTool: FEATHER
+  preview:
+    base:
+      updateInterval: 20
+      drawFrame: true
+      FrameSpacing: 1
+      drawSides: true
+      SidesSpacing: 2
+      Frame: happyVillager
+      Sides: REDSTONE
+    preview:
+      updateInterval: 20
+      drawFrame: true
+      FrameSpacing: 1
+      drawSides: true
+      SidesSpacing: 2
+      Frame: SOUL_FIRE_FLAME
+      Sides: FLAME
+
